@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: bisque;
+}
+
+#company {
+  font-size: 400%;
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+h1 {
+  padding-left: 80px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.card {
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  word-wrap: break-word;
+  background-color: rgb(251, 183, 101);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+}
+
+#logo {
+  max-width: 80px;
+  height: auto;
+}
